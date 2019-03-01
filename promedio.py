@@ -2,9 +2,9 @@
 sum=0
 i=0
 a=0
-print("este programa calculará la suma y promedio de los numeros ingresados. Recuerde que cuando no desee igresar mas numeros debe escribir -1")
-num=int(input("por favor ingrese ingrese un numero"))
-while num!=-1:
+print("este programa calculará la suma y promedio de los numeros ingresados. Recuerde que solo puede ingresar 10 numeros")
+num=int(input("por favor ingrese ingrese un numero" ))
+for b in range (1,11):
 	sum=sum+num
 	i=i+1
 	num=int(input("por favor ingrese ingrese un numero"))
